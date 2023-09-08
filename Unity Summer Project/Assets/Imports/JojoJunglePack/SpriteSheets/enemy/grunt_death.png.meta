@@ -34,7 +34,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -43,7 +43,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -153,7 +153,259 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: grunt_death_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 26
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9d56fc687b69e946a43755c0040e537
+      internalID: -1405788736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grunt_death_1
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 0
+        width: 26
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70d829a7dca4eae47aa13d2b645f1d28
+      internalID: 59613859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grunt_death_2
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 0
+        width: 26
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5415e0cfb62f3347a4cb30d3465c2cb
+      internalID: -418001514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grunt_death_3
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 0
+        width: 26
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c087968136d40364f93adf632764a34d
+      internalID: -1077688178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grunt_death_4
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 0
+        width: 26
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f974b2c3dfe7df43a3110990efd3a1e
+      internalID: -1208883759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grunt_death_5
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 0
+        width: 26
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15f9392e19d071b419f9a5b8847b4cf8
+      internalID: 1250504545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grunt_death_6
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 0
+        width: 26
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c610dee733810246a3f4dd4cb7bf792
+      internalID: 987257838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grunt_death_7
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 0
+        width: 26
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bb62ca98afef2f4d80898f95a986d93
+      internalID: 1008670513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grunt_death_8
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 0
+        width: 26
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 404e686a32af1f3498c179c821649862
+      internalID: 1485111720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grunt_death_9
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 0
+        width: 26
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb235d3d104be4f4885b6af0a8feb9a1
+      internalID: 1644050141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grunt_death_10
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 0
+        width: 26
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3133b1b72b98b74a80b5cd1c6e09cdd
+      internalID: 1710088717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grunt_death_11
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 0
+        width: 26
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0411d733379ff04409e7449522e32afd
+      internalID: 1740123513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -164,7 +416,19 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      grunt_death_0: -1405788736
+      grunt_death_1: 59613859
+      grunt_death_10: 1710088717
+      grunt_death_11: 1740123513
+      grunt_death_2: -418001514
+      grunt_death_3: -1077688178
+      grunt_death_4: -1208883759
+      grunt_death_5: 1250504545
+      grunt_death_6: 987257838
+      grunt_death_7: 1008670513
+      grunt_death_8: 1485111720
+      grunt_death_9: 1644050141
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

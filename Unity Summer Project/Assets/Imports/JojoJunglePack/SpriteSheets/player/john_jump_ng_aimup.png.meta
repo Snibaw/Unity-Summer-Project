@@ -34,7 +34,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -43,7 +43,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -153,7 +153,196 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: john_jump_ng_aimup_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7819ed3a7daa61046b68a89257e9f140
+      internalID: -1710159657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: john_jump_ng_aimup_1
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 0
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3379e9d6fc981b489585502474ff178
+      internalID: -638647466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: john_jump_ng_aimup_2
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 0
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53058792e37af8e40ba141f7e6b635ab
+      internalID: 464288185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: john_jump_ng_aimup_3
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 0
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15632b83b537ac64c9d0cc384f576f6a
+      internalID: 718452126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: john_jump_ng_aimup_4
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 0
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b62591605c3e33f49863e91caf5c5792
+      internalID: 1147641301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: john_jump_ng_aimup_5
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 0
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b52d9af511058854ab5331bdf8f4241f
+      internalID: -827950061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: john_jump_ng_aimup_6
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 0
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd0c1908c1b41bd4081532029f12cfa6
+      internalID: 1276419294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: john_jump_ng_aimup_7
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 0
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f846f59b788e2ec478309d5a3ce7e5d4
+      internalID: -758694124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: john_jump_ng_aimup_8
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 0
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9485aa588c338cf429b8d6bb526dc5d2
+      internalID: 996622826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -164,7 +353,16 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      john_jump_ng_aimup_0: -1710159657
+      john_jump_ng_aimup_1: -638647466
+      john_jump_ng_aimup_2: 464288185
+      john_jump_ng_aimup_3: 718452126
+      john_jump_ng_aimup_4: 1147641301
+      john_jump_ng_aimup_5: -827950061
+      john_jump_ng_aimup_6: 1276419294
+      john_jump_ng_aimup_7: -758694124
+      john_jump_ng_aimup_8: 996622826
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
