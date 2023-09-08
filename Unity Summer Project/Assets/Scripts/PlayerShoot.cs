@@ -7,7 +7,7 @@ public class PlayerShoot : MonoBehaviour
     [SerializeField] private GameObject bulletPrefab;
     public Transform[] barrels;
     public Transform barrel;
-    [SerializeField] private float reloadTime = 0.5f;
+    public float reloadTime = 0.5f;
     private float reloadTimer;
     private Vector2 direction;
     private float zRotation;

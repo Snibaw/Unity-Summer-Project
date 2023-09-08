@@ -10,10 +10,14 @@ public class EnemyMovement : MonoBehaviour
     private Rigidbody2D rb;
     public float speed = 5f;
     private EnemyHealth enemyHealth;
+    private Transform player;
     // Start is called before the first frame update
     void Start()
     {
-        direction = Vector2.right;
+        player = GameObject.Find("Player").transform;
+        Debug.Log(player.position.x + " " + transform.position.x);
+        direction = transform.position.x > player.position.x ? Vector2.left : Vector2.right;
+
         rb = GetComponent<Rigidbody2D>();
         enemyHealth = GetComponent<EnemyHealth>();
         FlipSprite();
@@ -24,6 +28,8 @@ public class EnemyMovement : MonoBehaviour
     {
         if(enemyHealth.isDead) return;
         
+
+
         isGrounded = CheckIfGrounded();
         if(isGrounded)
         {
@@ -36,6 +42,15 @@ public class EnemyMovement : MonoBehaviour
             FlipSprite();
         }
     }
+    private void OnCollisionEnter2D(Collision2D other) {
+        if(other.gameObject.CompareTag("Enemy"))
+        {
+            direction = new Vector2(direction.x * -1, direction.y);
+            FlipSprite();
+        }
+    }
+
+
     private bool CheckIfGrounded()
     {
         return Physics2D.BoxCast(boxCollider.bounds.center, boxCollider.bounds.size, 0f, Vector2.down, 0.1f, LayerMask.GetMask("Ground"));
