@@ -13,12 +13,14 @@ public class PlayerMovement : MonoBehaviour
     private bool isGrounded = false;
     [SerializeField] private BoxCollider2D feetCollider;
     [SerializeField] private float jumpForce = 10f;
+    private SoundEffectManager soundEffectManager;
     // Start is called before the first frame update
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
         lastXInput = 1;
+        soundEffectManager = GameObject.Find("SoundEffectManager").GetComponent<SoundEffectManager>();
     }
 
     // Update is called once per frame
@@ -33,6 +35,7 @@ public class PlayerMovement : MonoBehaviour
         isGrounded = CheckIfGrounded();
         if(isGrounded && (Input.GetKeyDown(KeyCode.LeftControl) || Input.GetKeyDown(KeyCode.Joystick1Button0)))
         {
+            soundEffectManager.PlaySoundEffect("jump");
             rb.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);
             animator.SetTrigger("jump");
         }

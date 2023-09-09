@@ -11,11 +11,13 @@ public class PlayerHealth : MonoBehaviour
     private bool isInvincible = false;
     private SpriteRenderer spriteRenderer;
     private GameManager gameManager;
+    private SoundEffectManager soundEffectManager;
     // Start is called before the first frame update
     void Start()
     {
         spriteRenderer = GetComponent<SpriteRenderer>();
         gameManager = GameObject.Find("GameManager").GetComponent<GameManager>();
+        soundEffectManager = GameObject.Find("SoundEffectManager").GetComponent<SoundEffectManager>();
         foreach (var healthIcon in healthIcons)
         {
             healthIcon.SetActive(true);
@@ -26,6 +28,7 @@ public class PlayerHealth : MonoBehaviour
     {
         if(isInvincible) return;
         if(isDead) return;
+        soundEffectManager.PlaySoundEffect("playerHit");
         health -= damage;
         healthIcons[health].SetActive(false);
         if (health <= 0)

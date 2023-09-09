@@ -13,11 +13,13 @@ public class PlayerShoot : MonoBehaviour
     private float zRotation;
     private bool isLookingDown = false;
     private bool isLookingUp = false;
+    private SoundEffectManager soundEffectManager;
     // Start is called before the first frame update
     void Start()
     {
         reloadTimer = reloadTime;
         barrel = barrels[0];
+        soundEffectManager = GameObject.Find("SoundEffectManager").GetComponent<SoundEffectManager>();
     }
 
     // Update is called once per frame
@@ -28,6 +30,7 @@ public class PlayerShoot : MonoBehaviour
         {
             if (reloadTimer < 0)
             {
+                soundEffectManager.PlaySoundEffect("playerShoot");
                 if(isLookingDown)
                 {
                     zRotation = -90;
